@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guest House</string>
+    <string name="user_hint">अपना नाम दर्ज करें</string>
+    <string name="alert_submit">जमा करो</string>
+    <string name="btn_add_item">सामान जमा करो</string>
+    <string name="btn_summary">सारांश</string>
+    <string name="app_version">\@S25_build0002\n14.03.2021</string>
+    <string name="add_item_details">सामान विवरण जोड़ें</string>
+    <string name="total">संपूर्ण</string>
+    <string name="amount">पैसे</string>
+    <string name="item_name">सामान का नाम</string>
+    <string name="empty_value">कृपया सामान का नाम और पैसे दर्ज करें।</string>
+    <string name="no_internet">Internet नहीं है।</string>
+    <string name="add_an_item_string">Add an Item</string>
+    <string name="error_getting_data">Unable to get data from server.</string>
+    <string name="error_sending_data">Unable to sending data to server.</string>
+    <string name="empty_value_guest">Please enter value in Name, Department, Company.</string>
+    <string name="empty_value_guest_date_time">Please set date and time.</string>
+    <string name="finish_guest_success">Guest added successfully.</string>
+    <string name="finish_item_success">Item saved successfully.</string>
+    <string name="hi">"Hi, "</string>
+    <string name="wel_msg">स्वागत हे</string>
+    <string name="rs_default">Rs.--</string>
+    <string name="btn_del">Delete</string>
+    <string name="guest_title">Guests</string>
+    <string name="add_guest">Add Guest</string>
+    <string-array name="item_type">
+        <item>Vegetable</item>
+        <item>Milk</item>
+        <item>Grocery</item>
+        <item>Other</item>
+    </string-array>
+</resources>

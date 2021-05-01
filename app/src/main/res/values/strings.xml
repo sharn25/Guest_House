@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Guest House</string>
+    <string name="user_hint">Enter Your Name</string>
+    <string name="alert_submit">Submit</string>
+    <string name="btn_add_item">Add Item</string>
+    <string name="btn_summary">Summary</string>
+    <string name="app_version">\@S25_build0002\n14.03.2021</string>
+    <string name="add_item_details">Add Item Details</string>
+    <string name="total">Total</string>
+    <string name="amount">Amount</string>
+    <string name="item_name">Item Name</string>
+    <string name="empty_value">Please enter Item Name and Amount.</string>
+    <string name="empty_value_guest">Please enter value in Name, Department, Company.</string>
+    <string name="empty_value_guest_date_time">Please set date and time.</string>
+    <string name="finish_guest_success">Guest added successfully.</string>
+    <string name="finish_item_success">Item saved successfully.</string>
+    <string name="no_internet">No internet connection.</string>
+    <string name="add_an_item_string">Add an Item</string>
+    <string name="error_getting_data">Unable to get data from server.</string>
+    <string name="error_sending_data">Unable to sending data to server.</string>
+    <string name="hi">"Hi, "</string>
+    <string name="wel_msg">Welcome</string>
+    <string name="rs_default">Rs.--</string>
+    <string name="btn_del">Delete</string>
+    <string name="guest_title">Guests</string>
+    <string name="add_guest">Add Guest</string>
+    <string name="end_stay">End Stay</string>
+    <string name="guest_detail_permanent">Permanent</string>
+    <string-array name="item_type">
+        <item>Vegetable</item>
+        <item>Milk</item>
+        <item>Grocery</item>
+        <item>Other</item>
+    </string-array>
+</resources>

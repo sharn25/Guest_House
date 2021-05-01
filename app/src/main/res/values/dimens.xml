@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text sizes -->
+    <dimen name="title_size">30dp</dimen>
+    <dimen name="text_input_title">18dp</dimen>
+    <dimen name="text_input_size">15dp</dimen>
+    <dimen name="text_view_size_title">20dp</dimen>
+    <dimen name="text_view_size_small">12dp</dimen>
+
+    <!-- Layout corner radius -->
+    <dimen name="title_corner_radius">25sp</dimen>
+
+    <dimen name="radius_corner">40dp</dimen>
+</resources>

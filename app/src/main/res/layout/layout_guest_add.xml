@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_bottom_sheet"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Guest"
+            android:fontFamily="@font/segoeui"
+            android:textSize="@dimen/title_size"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoeui"
+                android:layout_marginTop="2dp"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_input_title" />
+            <EditText
+                android:id="@+id/et_guest_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_input_size"
+                android:hint="Enter name of guest"
+                android:textColor="@color/black"
+                android:fontFamily="@font/segoeui"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoeui"
+                android:text="Department"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_input_title" />
+            <EditText
+                android:id="@+id/et_department"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_input_size"
+                android:hint="Particular Department of eEmployee"
+                android:textColor="@color/black"
+                android:fontFamily="@font/segoeui"
+                tools:ignore="InvalidId" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoeui"
+                android:text="Company"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_input_title" />
+            <EditText
+                android:id="@+id/et_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_input_size"
+                android:hint="Enter Company of guest"
+                android:textColor="@color/black"
+                android:fontFamily="@font/segoeui"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoeui"
+                android:text="Stay Type"
+                android:layout_marginTop="2dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_input_title" />
+            <RadioGroup
+                android:id="@+id/rg_stay_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/rb_parmanent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Parmanent"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/segoeui"
+                    android:textSize="@dimen/text_input_size"/>
+                <RadioButton
+                    android:id="@+id/rb_time_limit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time Limit"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/segoeui"
+                    android:textSize="@dimen/text_input_size"/>
+            </RadioGroup>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/ll_time_limit">
+                <EditText
+                    android:id="@+id/et_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="10-02-2021"
+                    android:layout_weight="1"
+                    android:drawableRight="@drawable/ico_cal_24_gray"
+                    android:inputType="date"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/segoeui"
+                    android:textSize="@dimen/text_input_size"
+                    android:clickable="true"/>
+                <EditText
+                    android:id="@+id/et_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="time"
+                    android:hint="10:00 AM"
+                    android:clickable="true"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/segoeui"
+                    android:textSize="@dimen/text_input_size"
+                    android:drawableRight="@drawable/ico_time_24_grey"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btn_guest_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:background="@drawable/btn_ripple"
+                android:textColor="@android:color/white"
+                android:text="@string/alert_submit"
+                android:fontFamily="@font/segoeui"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
